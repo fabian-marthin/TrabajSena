@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    background: #D3D4D9;
+}
+.ocultar{
+    display: none;
+}
+.menu{
+    background: #4B88A2;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+.menu div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submenu{
+    display: flex;
+}
+.submenu li{
+    list-style-type: none;
+    font-family: cursive;
+}
+.submenu a{
+    padding: 10px;
+    text-decoration: none; 
+}
+.submenu input{
+    display: none;
+}
+.submenu li :hover{
+    list-style-type: none;
+    background: #BB0A21;
+    border-radius: 5px;
+    color: #D3D4D9;
+    font-family: cursive;
+}
+.icono{
+    width: 100px;
+}
+
+h2{
+    font-family: cursive
+}
+p{
+    font-family: cursive;
+}
+
+/* SERVICIOS */
+#servicios form{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+#servicios form div{
+    padding: 30px;
+}
+#servicios form img{
+    max-width: 300px;
+    width: 100%;
+}
+.botonNoServicio{
+    background: #4B88A2;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 250px;
+    cursor: pointer;
+    font-family: cursive;
+    text-decoration: none;
+    color: #D3D4D9;
+    display: flex;
+    justify-content: center;
+}
+.botonNoServicio :hover{
+    background: #BB0A21;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+}
+#servicios input{
+    display: none;
+}
+
+
+#noServicio div{
+    background: wheat;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    top: 170px;
+    border-radius: 20px;
+}
+
+
+/* BLOG */
+#blog form{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+#blog div{
+    padding: 30px;
+}
+#blog img{
+    max-width: 300px;
+    width: 100%;
+}
+
+/* CONTACTOS */
+#contactos form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contactos input{
+    border-radius: 15px;
+    width: 300px;
+    height: 25px;
+}
+.iconosContactos{
+    display: flex;
+    align-items: center;
+}
+.iconosContactos img{
+    width: 50px;
+    padding: 10px;
+}
+.iconosContactos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* ACERCA DE NOSOTROS */
+#acercaDeNosotros div{
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
